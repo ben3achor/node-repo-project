@@ -77,5 +77,5 @@ app.get("/find_some",(req,res)=>{
 
    /*res.send((req.body.name));});res.send(your name ${req.body.name},:${req.body.name}  res.send(" your name is : "+ req.body.name );});
     then your age is:${req.query.age});}); res.send("' your name '+ req.body.name + ',then your age is:' + req.query.age");});*/
-   app.post("/postman",(req,res)=>{res.send("hello......... postman  !")});
+   app.post("/postman",(req,res)=>{res.send("hello....... postman  !")});
 app.listen(3000,()=>{console.log("i am connecting to server beno_svr")});
